@@ -69,7 +69,7 @@ const Formulario = ({guardarResumen}) => {
         })
      }
 
-     //Cuanbdo el usuario presiona submit
+     //Cuando el usuario presiona submit
      const cotizarSeguro = e => {
         e.preventDefault();
 
@@ -163,7 +163,7 @@ const Formulario = ({guardarResumen}) => {
                     onChange={ObtenerInformacion}
                 /> Completo
             </Campo>
-            <Boton type='submit '>Cotizar</Boton>
+            <Boton type='submit'>Cotizar</Boton>
         </form>
      );
 }
